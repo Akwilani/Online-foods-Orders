@@ -35,11 +35,25 @@ a{
     text-decoration: none;
     padding: 10px;
     color: black;
+    margin-left: -10px;
 }
+
+.log {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
 .a{
     border: 2px solid black;
     background-color: black;
     color: white;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.a:hover {
+    background: #ff7200;
 }
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -127,24 +141,50 @@ form{
     background-color: #ff7200;
     padding: 10px;
 }
+
+
+
+
+
 .section-3{
     width: 100%;
-    height: 50vh;
+    /* height: 50vh; */
     background: linear-gradient(to top,rgba(160, 152, 152, 0.5),rgba(0,0,0,0.1));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
 }
 .section-3 img{
-    height: 200px;
-    width: 300px;
-    
-    display:inline-flex;
-    justify-content: space-around;
-    padding: 80px;
-    border: 2px solid white;
-    border-radius: 50px;
+    height: 8cm;
+    width: 8cm;
+    padding: 0;
+    border: 2px solid #ff7200;
+    border-radius: 50%;
     margin-left: 10px;
     margin-top: 10px
 
 }
 
+.section-4{
+    width: 100%;
+    /* height: 50vh; */
+    background: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 
+.section-4 img{
+    height: 5cm;
+    width: 5cm;
+    padding: 0;
+    border: 2px solid #ff7200;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px
+
+}
